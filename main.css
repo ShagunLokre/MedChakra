@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+}
+
+#container-login {
+    background-color: #1b546b;
+    position: relative;
+    top: 20%;
+    margin: auto;
+    width: 340px;
+    height: 445px;
+    border-radius: 0.66em;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+#container-register {
+    background-color: #1b546b;
+    position: relative;
+    top: 12%;
+    margin: auto;
+    width: 340px;
+    height: 525px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+#container-verification {
+    background-color: #1b546b;
+    position: relative;
+    top: 20%;
+    margin: auto;
+    width: 340px;
+    height: 445px;
+    border-radius: 0.66em;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+#title {
+    position: relative;
+    background-color: #000000;
+    width: 100%;
+    padding: 20px 0px;
+    border-radius: 0.50em;
+    font-size: 22px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.lock {
+	position: relative;
+	top: 2px;
+}
+
+.input {
+    margin: auto;
+    width: 240px;
+    border-radius: 400px;
+    background-color: #000000;
+    padding: 1px 0px;
+    margin-top: 8px;
+}
+
+input[type=checkbox] {
+    cursor: pointer;
+}
+
+input[type=text] {
+    color: #ffffff;
+    margin: 0;
+    background-color: #000000;
+    border: 1px solid #000000;
+    padding: 4px 4px;
+    border-radius: 300px;
+}
+
+input[type=text]:focus {
+    border: 1px solid #000000;
+    
+}
+
+input[type=password] {
+    color: #ffffff;
+    margin: 0;
+    background-color: #000000;
+    border: 1px solid #000000;
+    padding: 6px 0px;
+    border-radius: 300px;
+}
+
+input[type=password]:focus {
+    border: 1px solid #000000;
+}
+
+input[type=tel] {
+    color: #ffffff;
+    margin: 0;
+    background-color: #000000;
+    border: 1px solid #000000;
+    padding: 6px 0px;
+    border-radius: 300px;
+}
+
+input[type=tel]:focus {
+    border: 1px solid #000000;
+    border-radius: 300px;
+}
+
+input[type=email] {
+    color: #ffffff;
+    margin: 0;
+    background-color: #000000;
+    border: 1px solid #000000;
+    padding: 6px 0px;
+    border-radius: 300px;
+}
+
+input[type=email]:focus {
+    border: 1px solid #000000;
+}
+
+.forgot-password {
+    position: relative;
+    bottom: 0%;
+    color: #fc1b1b;
+}
+
+.forgot-password a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.forgot-password a:visited {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.forgot-password a:hover {
+    color: #FFF;
+    transition: color 1s;
+}
+
+.privacy {
+    margin-top: 5px;
+    position: relative;
+    font-size: 12px;
+    bottom: 0%;
+}
+
+.privacy a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.privacy a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.privacy a:hover {
+    color: #C1C3C6;
+    transition: color 1s;
+}
+
+*:focus {
+    outline: none;
+}
+
+.remember-me {
+    margin: 10px 0;
+}
+
+input[type=submit] {
+    padding: 6px 25px;
+    background: #000000;
+    color: #ffffff;
+    font-weight: bold;
+    border: 0 none;
+    cursor: pointer;
+    border-radius: 300px;
+}
+
+.register {
+    margin: auto;
+    padding: 16px 0;
+    text-align: center;
+    margin-top: 40px;
+    width: 85%;
+    border-top: 1px solid #000000;
+}
+
+.clearfix {
+    clear: both;
+}
+
+#register-link {
+    margin-top: 10px;
+    padding: 6px 25px;
+    background: #000000;
+    color: #ffffff;
+    font-weight: bold;
+    border: 0 none;
+    cursor: pointer;
+    border-radius: 300px;
+}
+
+.verify {
+    margin: auto;
+    padding: 16px 0px;
+    text-align: center;
+    margin-top: 40px;
+    width: 85%;
+    border-top: 1px solid #000000;
+}
+
+#verify-link {
+    margin-top: 5px;
+    padding: 6px 25px;
+    color: #ffffff;
+    border-radius: 300px;
+    background: #000000;
+    font-weight: bold;
+    border: 0px;
+    cursor: pointer;
+}

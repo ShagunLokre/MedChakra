@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="img-upload.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+	</head>
+    <style>
+        body {
+            background-color: #04d160f5;
+        }
+    </style>
+    <body>
+        <div class="heading">
+            <div class="Name2">
+                MEDCHAKRA
+            </div>
+            <div class="topnav">
+                <a href="#Logout">Logout</a>
+                <a href="#Help">Help</a>
+                </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div id="container-img-upload">
+            <div id="title">
+                <i class="material-icons lock">image</i> Image upload
+            </div>
+            <div class="container" style="width: 200px">
+	<form method="POST" class="justify-content-center " enctype="multipart/form-data">
+		<h3 class="mt-4"> Insert Image</h3><br><br>
+        <input type="file" name="image" accept="image/*" required id="image">
+        <br><br>
+        <div id="description" style="width: 200px;">
+            <textarea rows="4" cols="30" name="comment" form="usrform"> Small description about the medicines.. </textarea>
+        </div>
+		<br><br>
+		<input type="submit" name="Post" id="Post" class="btn btn-primary" value="Post" onclick="selected_image();">
+    </form>
+    </div>
+    <footer id="footer">
+        <br>
+        <p>&copy; COPYRIGHT 2020 BlockforTrust</p>
+        <p><a href="http://blockfortrust.com/">www.blockfortrust.com</a></p>
+    </footer>
+</body>
+    
+
+
